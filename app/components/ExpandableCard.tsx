@@ -283,8 +283,7 @@ const cards = [
                   <div key={index}>
                       <li
                       className="text-white p-2 rounded-lg flex-1 basis-[calc(33.333%-1rem)] sm:basis-[calc(50%-1rem)]"
-                      style={{ backgroundColor: "rgb(3, 3, 29)" }}
-                    >
+                      style={{ backgroundColor: "rgb(3, 3, 29)" }}>
                       {list}
                     </li>
                   </div>
