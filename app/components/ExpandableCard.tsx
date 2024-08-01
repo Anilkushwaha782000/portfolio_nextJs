@@ -280,13 +280,14 @@ const cards = [
                 />
                 <ul className="flex flex-wrap gap-4 mb-4">
                   {item.skills.map((list, index) => (
-                    <li
+                  <div key={index}>
+                      <li
                       className="text-white p-2 rounded-lg flex-1 basis-[calc(33.333%-1rem)] sm:basis-[calc(50%-1rem)]"
                       style={{ backgroundColor: "rgb(3, 3, 29)" }}
-                      key={index}
                     >
                       {list}
                     </li>
+                  </div>
                   ))}
                 </ul>
               </div>
