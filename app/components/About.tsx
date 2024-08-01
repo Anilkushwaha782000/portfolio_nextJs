@@ -49,7 +49,7 @@ export function About() {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1, delay: 0.5 }}
     >
-      Feel free to explore my <a href="#project" className="text-blue-600 hover:underline">projects</a> and <a href="#contact" className="text-blue-600 hover:underline">get in touch</a> if you'd like to collaborate or discuss potential opportunities!
+      Feel free to explore my <a href="#project" className="text-blue-600 hover:underline">projects</a> and <a href="#contact" className="text-blue-600 hover:underline">get in touch</a> if you&apos;d like to collaborate or discuss potential opportunities!
     </motion.p>
   </section>
   );
