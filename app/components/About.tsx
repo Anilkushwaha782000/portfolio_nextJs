@@ -1,8 +1,6 @@
 // pages/about.js
 "use client";
-import React from 'react';
 import { motion } from 'framer-motion';
-import { TextGenerateEffect } from './ui/textGenerateeffect';
 export function About() {
     const words="About Us!"
   return (
@@ -20,7 +18,7 @@ export function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
-      Hi! I’m Anil
+      Hi! I&apos;m Anil
     </motion.h1>
     <motion.p
       className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300"
@@ -44,7 +42,7 @@ export function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.5 }}
     >
-      When I’m not coding, I enjoy exploring new technologies, contributing to open-source projects, and spending time outdoors. I’m always eager to connect with like-minded professionals and explore new opportunities.
+      When I’m not coding, I enjoy exploring new technologies, contributing to open-source projects, and spending time outdoors. I&apos;m always eager to connect with like-minded professionals and explore new opportunities.
     </motion.p>
     <motion.p className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300"
     initial={{ opacity: 0, y: 20 }}
