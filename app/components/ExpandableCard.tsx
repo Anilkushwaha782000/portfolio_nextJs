@@ -333,8 +333,7 @@ const cards = [
               <h3 className="text-center text-xl text-white font-bold mb-4">Skill I have gained during internship</h3>
               <ul className="flex flex-wrap gap-4 mb-4">
                 {item.skills.map((list, index) => (
-                  <li
-                    key={index}
+                  <li key={index} 
                     className="text-white p-2 rounded-lg flex-1 basis-[calc(33.333%-1rem)] sm:basis-[calc(50%-1rem)]"
                     style={{ backgroundColor: "rgb(3, 3, 29)" }}
                     
