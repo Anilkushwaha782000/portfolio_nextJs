@@ -329,7 +329,7 @@ const cards = [
       return (
         <div>
           {internshipData.map((item, index) => (
-            <div className="mb-4">
+            <div key={index} className="mb-4">
               <h3 className="text-center text-xl text-white font-bold mb-4">Skill I have gained during internship</h3>
               <ul className="flex flex-wrap gap-4 mb-4">
                 {item.skills.map((list, index) => (
