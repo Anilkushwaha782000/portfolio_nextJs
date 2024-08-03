@@ -55,7 +55,7 @@ export function AnimatedPinDemo() {
         {pinData.map((item, index) => (
           <div key={index} className="mb-6 md:mb-6 lg:mb-8 ">
             <PinContainer title={item.title} href={item.href}>
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                   {item.name}
                 </h3>
