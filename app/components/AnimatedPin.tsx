@@ -39,6 +39,15 @@ export function AnimatedPinDemo() {
       Tech_stack: ["HTML", "CSS", "Bootstrap", "Javascript"],
     },
     {
+      name: "ReactProjectPro",
+      title: "https://projectriseup.netlify.app/",
+      href: "https://projectriseup.netlify.app/",
+      heading: "Aceternity UI",
+      description: "Customizable Tailwind CSS and Framer Motion Components.",
+      gradientClasses: "from-violet-500 via-purple-500 to-blue-500",
+      Tech_stack: ["React", "Bootstrap","TailwindCss"],
+    },
+    {
       name: "Bootstrap practice",
       title: "https://anilkushwaha782000.github.io/bootstarp_website/",
       href: "https://anilkushwaha782000.github.io/bootstarp_website/",
@@ -55,7 +64,7 @@ export function AnimatedPinDemo() {
         {pinData.map((item, index) => (
           <div key={index} className="mb-6 md:mb-6 lg:mb-8 ">
             <PinContainer title={item.title} href={item.href}>
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[16rem] h-[20rem] ">
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[16rem] h-[18rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                   {item.name}
                 </h3>
