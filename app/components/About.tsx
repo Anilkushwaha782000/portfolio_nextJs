@@ -1,10 +1,12 @@
 // pages/about.js
 "use client";
 import { motion } from 'framer-motion';
+import { BackgroundLines } from './ui/background-lines';
 export function About() {
     const words="About Us!"
   return (
     <section id='about' className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto">
+      <BackgroundLines>
     <motion.h1
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
@@ -51,6 +53,7 @@ export function About() {
     >
      Explore my <a href="#project" className="text-blue-600 hover:underline">projects</a> and <a href="#contact" className="text-blue-600 hover:underline">get in touch</a> if you'd like to collaborate or discuss exciting opportunities!
     </motion.p>
+    </BackgroundLines>
   </section>
   );
 };
