@@ -12,10 +12,8 @@ export function VortexDemo() {
         <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
           Let&apos;s Connect
         </h2>
-        <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
-          Have questions or need assistance? Reach out to us using the form
-          below or through our contact details, and we&apos;ll get back to you
-          as soon as possible.
+        <p className="text-white text-sm md:text-2xl max-w-xl mt-6">
+         Let's connect on LinkedIn! Feel free to send me a connection request.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
           <a

@@ -14,7 +14,14 @@ import {
   IconBrandReact,
   IconBrandTailwind,
   IconSettings,
-  IconBrandNextjs
+  IconBrandNextjs,
+  IconBrandGithub,
+  IconBrandMysql,
+  IconFileTypeZip,
+  IconBrandThreejs,
+  IconCircleDottedLetterJ,
+  IconKeyframeAlignCenter,
+  IconBrandMatrix
 } from "@tabler/icons-react";
 
 export function FeaturesSectionDemo() {
@@ -61,8 +68,43 @@ export function FeaturesSectionDemo() {
     },
     {
       title: "NextJs",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      description: "A powerful React framework for building server-side rendered applications.",
       icon: <IconBrandNextjs />,
+    },
+    {
+      title: "Material UI",
+      description: "A popular React UI framework for building beautiful, responsive designs.",
+      icon: <IconBrandMatrix />,
+    },
+    {
+      title: "MySQL",
+      description: "A widely-used relational database management system.",
+      icon: <IconBrandMysql />,
+    },
+    {
+      title: "Git",
+      description: "A version control system for tracking changes in source code during development.",
+      icon: <IconBrandGithub />,
+    },
+    {
+      title: "Jest",
+      description: "A JavaScript testing framework designed for simplicity and speed.",
+      icon: <IconCircleDottedLetterJ />,
+    },
+    {
+      title: "Babel",
+      description: "A JavaScript compiler that helps write modern JavaScript that works in older browsers.",
+      icon: <IconKeyframeAlignCenter />,
+    },
+    {
+      title: "Webpack",
+      description: "A module bundler for JavaScript applications, optimizing assets for production.",
+      icon: <IconFileTypeZip />,
+    },
+    {
+      title: "Express.js",
+      description: "A minimal and flexible Node.js web application framework for building RESTful APIs.",
+      icon: <IconBrandThreejs />,
     },
     
   ];
@@ -70,12 +112,12 @@ export function FeaturesSectionDemo() {
     <section id="skills" className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto">
       <div className="">
         <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-black dark:text-white">
-         What I Do Best
+        My Expertise and Passion
         </h4>
 
-        <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
+        <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 font-normal dark:text-neutral-300">
        
-        From custom APIs to intuitive user interfaces, our full-stack expertise spans diverse technologies. We specialize in building robust applications and  dynamic web experiences to bring your digital projects to life
+        We&apos;re passionate about turning your ideas into reality, whether it&apos;s building custom APIs or creating intuitive user interfaces. With a strong foundation in full-stack development, we focus on delivering seamless, dynamic web experiences and robust applications that help bring your digital projects to life.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative mt-10 z-10 py-10 max-w-7xl mx-auto">
@@ -102,8 +144,8 @@ const Feature = ({
     <div
       className={cn(
         "flex flex-col lg:border-r  py-10 relative group/feature dark:border-neutral-800",
-        (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
-        index < 4 && "lg:border-b dark:border-neutral-800"
+        (index === 0 || index === 4|| index === 8 || index === 12) && "lg:border-l dark:border-neutral-800",
+        index < 12 && "lg:border-b dark:border-neutral-800"
       )}
     >
       {index < 4 && (

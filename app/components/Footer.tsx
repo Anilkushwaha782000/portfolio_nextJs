@@ -58,49 +58,27 @@ const Footer = () => {
           <div className="flex flex-col items-center space-y-4">
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/projects"
+              href="#project"
             >
               Projects
             </a>
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/skills"
+              href="#skills"
             >
               Skills
             </a>
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/resume"
+              href="https://drive.google.com/file/d/1xh5_abr1atjaJp3YVB1CIKq3aIug2mEs/view?usp=sharing"
             >
               Resume
             </a>
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/blog"
-            >
-              Blog
-            </a>
-            <a
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/contact"
+              href="#contact"
             >
               Contact
-            </a>
-          </div>
-          <div className="flex flex-col items-center space-y-4">
-            <a
-              target="__blank"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/"
-            >
-              Twitter
-            </a>
-            <a
-              target="__blank"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/"
-            >
-              Discord
             </a>
           </div>
         </div>

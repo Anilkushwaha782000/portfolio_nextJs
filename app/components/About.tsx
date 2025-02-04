@@ -21,35 +21,35 @@ export function About() {
       Hi! I&apos;m Anil
     </motion.h1>
     <motion.p
-      className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300"
+      className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500  font-normal dark:text-neutral-300"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.5 }}
     >
-      I am a passionate web developer with a background in Computer Science and over 2 years of experience in building dynamic and responsive websites. My journey began with a deep love for coding, which has driven me to create numerous projects across various industries. I specialize in modern web technologies including React, Node.js, and Tailwind CSS.
+      I am a passionate Frontend Developer with a strong foundation in Computer Science and over 2 years of hands-on experience in building stunning, user-centric websites. I specialize in React, Next.js, Tailwind CSS, and creating seamless digital experiences that look great and perform beautifully.
     </motion.p>
     <motion.p
-      className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300"
+      className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500  font-normal dark:text-neutral-300"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.5 }}
     >
-      Over the years, I&apos;ve developed a keen eye for detail and a commitment to delivering high-quality work. My approach to development is centered around creating scalable and maintainable solutions while focusing on user experience and collaboration.
+      With a keen eye for detail, I focus on crafting responsive, high-performance websites that provide exceptional user experiences. I'm always learning, experimenting, and evolving my skills to stay ahead of trends and deliver top-notch work.
     </motion.p>
     <motion.p
-      className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300"
+      className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500  font-normal dark:text-neutral-300"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.5 }}
     >
-      When I&apos;m not coding, I enjoy exploring new technologies, contributing to open-source projects, and spending time outdoors. I&apos;m always eager to connect with like-minded professionals and explore new opportunities.
+     Outside of coding, I&apos;m an explorer of new technologies, an advocate for open-source contributions, and an enthusiast for outdoor adventures. I love connecting with like-minded professionals and exploring fresh opportunities.
     </motion.p>
-    <motion.p className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300"
+    <motion.p className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500  font-normal dark:text-neutral-300"
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1, delay: 0.5 }}
     >
-      Feel free to explore my <a href="#project" className="text-blue-600 hover:underline">projects</a> and <a href="#contact" className="text-blue-600 hover:underline">get in touch</a> if you&apos;d like to collaborate or discuss potential opportunities!
+     Explore my <a href="#project" className="text-blue-600 hover:underline">projects</a> and <a href="#contact" className="text-blue-600 hover:underline">get in touch</a> if you'd like to collaborate or discuss exciting opportunities!
     </motion.p>
   </section>
   );
